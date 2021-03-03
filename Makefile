@@ -1,5 +1,5 @@
 CC      = /opt/homebrew/opt/llvm/bin/clang
-CFLAGS  = -fopenmp -L/opt/homebrew/opt/libomp/lib
+CFLAGS  = -O3 -fopenmp -L/opt/homebrew/opt/libomp/lib
 RM      = rm -f
 
 default: all
